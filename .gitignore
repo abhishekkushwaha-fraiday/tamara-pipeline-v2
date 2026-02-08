@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+
+# Exclude all CSV data files (contain sensitive lead data)
+*.csv
+!import_here_your_enrich.csv
+
+# Exclude generated chart images
+charts/*.png
